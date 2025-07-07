@@ -1,8 +1,14 @@
+import Header from "./components/Header.jsx";
+import MyFirstComponent from "./components/MyFirstComponent.jsx";
+import Footer from "./components/Footer.jsx";
+
 function App() {
 
   return (
     <>
-      <h1>React Intro</h1>
+      <Header />
+      <MyFirstComponent/> {/* rendering a component */}
+      <Footer />
     </>
   )
 }
