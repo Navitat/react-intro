@@ -12,6 +12,7 @@ function App() {
       <User firstName="Bob" surname="Brown" />
       <User firstName="Charlie" surname="Doe" />
       <MovieList />
+      <hr />
       <MyFirstComponent />
       <Footer>
         <p>Hello world</p>
